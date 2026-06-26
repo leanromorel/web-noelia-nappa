@@ -298,7 +298,7 @@
 
   /* ---------- contact ---------- */
   .contact h2{font-size:clamp(1.8rem,3vw,2.4rem); margin:10px 0 40px;}
-  .contact-grid{display:grid; grid-template-columns:repeat(3,1fr); gap:28px;}
+  .contact-grid{display:grid; grid-template-columns:repeat(4,1fr); gap:24px;}
   .contact-item{
     display:block;
     background:var(--cream);
@@ -310,7 +310,8 @@
   a.contact-item:hover{transform:translateY(-4px); box-shadow:0 18px 36px -20px rgba(71,60,48,0.3);}
   .contact-item h3{font-size:1.05rem; margin:14px 0 6px;}
   .contact-item p{color:var(--ink-soft); margin:0; font-size:0.95rem;}
-  @media (max-width:880px){ .contact-grid{grid-template-columns:1fr;} }
+  @media (max-width:1040px){ .contact-grid{grid-template-columns:repeat(2,1fr);} }
+  @media (max-width:600px){ .contact-grid{grid-template-columns:1fr;} }
 
   /* ---------- footer ---------- */
   .site-footer{background:var(--ink); color:var(--cream); padding:48px 0 32px;}
@@ -410,7 +411,7 @@
     </nav>
 
     <a class="btn btn-primary header-cta" href="https://wa.me/5493426300287?text=Hola%20Noelia%2C%20me%20gustar%C3%ADa%20coordinar%20una%20primera%20entrevista." target="_blank" rel="noopener">
-      Escribime
+      Contáctame
     </a>
 
     <button class="nav-toggle" id="nav-toggle" aria-label="Abrir menú" aria-expanded="false" aria-controls="mobile-nav">
@@ -425,6 +426,7 @@
     <a href="#primera-consulta">Primera consulta</a>
     <a href="#contacto">Contacto</a>
     <a class="btn btn-primary" href="https://wa.me/5493426300287?text=Hola%20Noelia%2C%20me%20gustar%C3%ADa%20coordinar%20una%20primera%20entrevista." target="_blank" rel="noopener">Escribime por WhatsApp</a>
+  </div>
 </header>
 
 <main>
@@ -586,6 +588,11 @@
         <span class="resource-icon icon-brand icon-instagram"><svg viewBox="0 0 448 512" aria-hidden="true"><use href="#icon-instagram" xlink:href="#icon-instagram"></use></svg></span>
         <h3>Instagram</h3>
         <p>@psi.noelianappa</p>
+      </a>
+      <a class="contact-item reveal" href="https://open.spotify.com/search/Pausa%20Mental%20Noelia%20Nappa" target="_blank" rel="noopener">
+        <span class="resource-icon icon-brand icon-spotify"><svg viewBox="0 0 496 512" aria-hidden="true"><use href="#icon-spotify" xlink:href="#icon-spotify"></use></svg></span>
+        <h3>Spotify</h3>
+        <p>Podcast «Pausa Mental»</p>
       </a>
     </div>
   </div>
